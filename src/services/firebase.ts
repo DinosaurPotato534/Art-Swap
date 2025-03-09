@@ -3,13 +3,6 @@ import { getStorage, ref, uploadString, getDownloadURL, listAll } from "firebase
 import { v4 as uuidv4 } from "uuid";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAgJ5CKTTqBP-BoYF-4eEdvq251xWEKQyk",
-  authDomain: "listen-together-6969.firebaseapp.com",
-  projectId: "listen-together-6969",
-  storageBucket: "listen-together-6969.firebasestorage.app",
-  messagingSenderId: "224351684851",
-  appId: "1:224351684851:web:ba32b5f3668d730babcf86",
-  measurementId: "G-5ZNBQDWV1T"
 };
 
 const app = initializeApp(firebaseConfig);
